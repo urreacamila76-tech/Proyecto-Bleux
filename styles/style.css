@@ -276,7 +276,7 @@ a { text-decoration: none; color: inherit; }
 }
 
 .star { color: #F82E97; font-weight: bold; }
-.check { color: #f82e97; }
+.check { color: black; }
 .cross { color: black; }
 
 .card-text {
@@ -323,11 +323,3 @@ a { text-decoration: none; color: inherit; }
 
 .social-icons a { color: #333; transition: color 0.3s;}
 .social-icons a:hover { color: #f82e97;}
-
-
-@media (max-width: 900px) {
-    .hero-content h1 { font-size: 2.5rem; }
-    .features-container { text-align: center; }
-    .pricing-desc { font-size: 0.85rem; }
-    .footer { flex-direction: column; text-align: center; }
-}
