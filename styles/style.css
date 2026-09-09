@@ -46,11 +46,13 @@ a { text-decoration: none; color: inherit; }
 .nav-links a:hover { color: #fff; }
 
 .btn-dowload {
-    background: linear-gradient(90deg, #9231b0, #4f58b9);
-    padding: 10px 22px;
+    background: linear-gradient(90deg, #a533c8, #565ebe);
+    padding: 11px 20px;
     border-radius: 4px;
     color: white;
     font-weight: 500;
+    border: none;
+    outline: none;
 }
 
 .hero {
@@ -97,6 +99,8 @@ a { text-decoration: none; color: inherit; }
     border-radius: 4px;
     transition: 0.3s;
     font-weight: 500;
+    border: none;
+    outline: none;
 }
 
 .btn-primary:hover { background-color: #d62480; }
@@ -288,16 +292,18 @@ a { text-decoration: none; color: inherit; }
 
 .btn-card {
     width: fit-content;
-    margin: 0 auto;
+    margin: 0 auto 25px;
     padding: 12px 30px;
     border-radius: 4px;
     color: white;
+    border: none;
+    border: none;
     transition: opacity 0.3s;
 }
 
 .btn-card:hover { opacity: 0.9; }
 
-.btn-card.pink { background-color: #F82E97; }
+.btn-card.pink { background-color: #F82E97;  }
 .btn-card.dark { background-color: #23153C; }
 
 .footer {
