@@ -329,3 +329,79 @@ a { text-decoration: none; color: inherit; }
 
 .social-icons a { color: #333; transition: color 0.3s;}
 .social-icons a:hover { color: #f82e97;}
+
+@media (min-width: 352px) and (max-width: 480px) {
+    .hero {
+        flex-direction: column;
+        text-align: center;
+        background-size: 100% 50%;
+        background-position: top center;
+        padding: 120px 5% 40px;
+  }
+
+  .hero-content h1 {
+    font-size: 2.2rem;
+  }
+
+  .hero-content p {
+    font-size: 1rem;
+  }
+
+  .hero-buttons {
+    flex-direction: column;
+    width: 100%;
+    border: 2px solid #ddd;
+  }
+
+  .btn-primary {
+    border-radius: 4px 4px 0 0;
+    border: none;
+    border-bottom: 2px solid #ddd;
+    width: 100%;
+  }
+
+  .btn-secondary {
+    border-radius: 0 0 4px 4px;
+    border: none;
+    width: 100%;
+  }
+}
+
+@media (min-width:481px) and (max-width: 768px) {
+    .navbar {padding: 12px 5%;}
+    .hero {
+        flex-direction: column;
+        text-align: center;
+        background-size: 40px 100%;
+        padding: 40px 55;
+    }
+
+    .hero-content h1 {font-size: 2.8rem;}
+    .hero-phone-img {max-width: 220px;}
+    .features-container {flex-direction: column; text-align: center;}
+    .footer {flex-direction: column; text-align: center; gap: 15px;}
+}
+
+@media (min-width: 769px) and (max-width: 920px) {
+    .hero {
+        background-size: 48% 100%;
+        padding: 50px 6%;
+    }
+
+    .hero-content h1 {font-size: 3rem;}
+    .features-laptop img {min-width: 350px;}
+    .card {width: 260px;}
+    .pricing-cards {gap: 20px;}
+}
+
+@media (min-width: 921px) and (min-width: 1297px) {
+    .hero {
+        background-size: 50% 100%;
+        padding: 50px 7%; 
+    }
+
+    .hero-content h1 {font-size: 3.5rem;}
+    .features-laptop img {max-width: 400px;}
+    .card {width: 300px;}
+    .pricing-cards{gap: 25px;}
+}
